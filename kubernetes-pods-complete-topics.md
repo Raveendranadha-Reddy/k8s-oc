@@ -13,6 +13,7 @@
 - **g)** Pod architecture and components
 - **h)** Pod creation workflow
 - **i)** Kubernetes API Server, Scheduler, Kubelet roles
+  
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 ### 🟩 02. Pod YAML and Configuration
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
@@ -27,6 +28,7 @@
 - **h)** imagePullPolicy
 - **i)** restartPolicy
 - **j)** `kubectl run, apply, edit, delete`
+ 
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 ### 🟪 03. Pod Lifecycle
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
@@ -42,6 +44,7 @@
 - **i)** Pod termination and graceful shutdown
 - **j)** terminationGracePeriodSeconds
 - **k)** preStop and postStart lifecycle hooks
+ 
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 ### 🟧 04. Pod Containers
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
@@ -67,6 +70,7 @@
 - **g)** timeoutSeconds
 - **h)** failureThreshold and successThreshold
 - **i)** Probe troubleshooting
+  
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 ### 🟦 06. Pod Resources and Performance
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
@@ -78,6 +82,7 @@
 - **f)** ResourceQuota
 - **g)** LimitRange
 - **h)** Pod resource monitoring
+  
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 ### 🟩 07. Pod Networking
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
@@ -91,6 +96,7 @@
 - **g)** CNI plugins
 - **h)** NetworkPolicy
 - **i)** Pod connectivity troubleshooting
+  
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 ### 🟪 08. Pod Storage
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
@@ -105,7 +111,8 @@
 - **h)** Shared storage between containers
 - **i)** Volume mount failures
 - **j)** Data persistence after Pod deletion
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  
+**━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 ### 🟧 09. Pod Scheduling
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 - **a)** NodeName
@@ -117,6 +124,7 @@
 - **g)** PriorityClass and preemption
 - **h)** Pod scheduling failures
 - **i)** Scheduler events and node resources
+  
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 ### 🟥 10. Pod Security
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
@@ -131,6 +139,7 @@
 - **h)** seccomp profiles
 - **i)** ServiceAccount
 - **j)** Pod Security Standards
+  
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 ### 🟦 11. Pod Configuration
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
@@ -142,6 +151,7 @@
 - **e)** imagePullSecrets
 - **f)** ServiceAccount token mounting
 - **g)** Environment variable precedence
+  
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 ### 🟩 12. Pods and Controllers
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
@@ -156,6 +166,7 @@
 - **h)** Static Pods
 - **i)** PodDisruptionBudget
 - **j)** Horizontal Pod Autoscaler
+  
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 ### 🟪 13. Pod Troubleshooting – Must Learn
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
@@ -178,6 +189,7 @@
 - **p)** PVC mount failure
 - **q)** Permission denied
 - **r)** Node NotReady and eviction issues
+  
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 ### 🟧 14. Advanced Pod Topics
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
@@ -194,6 +206,7 @@
 - **j)** Scheduling gates
 - **k)** Pod OS and architecture constraints
 - **l)** Pod logs, events and audit troubleshooting
+  
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
 ### 🟥 15. Practical Commands
 **━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**
